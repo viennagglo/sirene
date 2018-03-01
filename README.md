@@ -24,5 +24,6 @@ On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD Postgre
 - INSERTION DANS LA BASE DE DONNEES PGSQL ET EXPORT DU FICHIER POUR EUDONET EN CSV.
 
 ## Licence Ouverte
-![texte alternatif](https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Logo_Licence_Ouverte_bleu_blanc_rouge.png "Licence Ouverte ETALAB")
+![Licence Ouverte ETALAB](/licence_ouverte.png)
+
 [LICENCE OUVERTE / OPEN LICENCE - Version 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
