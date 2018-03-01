@@ -10,7 +10,7 @@ Ce dépôt contient 2 scripts SHELL qui permettent de traiter les données brute
 
 Ce traitement a pour objectif de créer un fichier CSV compatible avec le module d'import de la solution EUDONET utilisée par notre service "Développement économique"
 
-Le premier traite le fichier de mise à jour mensuelle, l'autre le fichier stock.
+Le premier script traite le fichier de mise à jour mensuelle, l'autre le fichier stock.
 
 On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD PostgreSQL :
 - 1/8 : REPERTOIRE DE TRAVAIL - TELECHARGEMENT DU FICHIER SIRENE - MAJ MENSUELLE OU STOCK,
