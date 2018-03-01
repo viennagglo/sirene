@@ -22,3 +22,7 @@ On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD Postgre
 - 7/8 : DECOUPAGE DES FICHIERS EPCI EN FICHIER COMMUNAL,
 - 8/8 : FUSION DES FICHIERS COMMUNAUX EN UN SEUL FICHIER AFIN DE CONSTRUIRE LE FICHIER DE L'EPCI,
 - INSERTION DANS LA BASE DE DONNEES PGSQL ET EXPORT DU FICHIER POUR EUDONET EN CSV.
+
+## Licence Ouverte
+![texte alternatif](https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Logo_Licence_Ouverte_bleu_blanc_rouge.png "Licence Ouverte ETALAB")
+[LICENCE OUVERTE / OPEN LICENCE - Version 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
