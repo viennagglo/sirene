@@ -7,6 +7,7 @@ Avoir préalablement installé les outils nécessaires à la bonne exécution du
 ## Principe
 
 Ce dépôt contient 2 scripts SHELL qui permettent de traiter les données brutes de la base SIRENE téléchargées en CSV sur la Plateforme ouverte des données publiques françaises : https://www.data.gouv.fr/fr/
+
 Le premier traite le fichier de mise à jour mensuelle, l'autre le fichier stock.
 
 On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD PostgreSQL :
