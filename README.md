@@ -12,7 +12,7 @@ Ce traitement a pour objectif de créer un fichier CSV compatible avec le module
 
 Le premier script traite le fichier de mise à jour mensuelle, l'autre le fichier stock.
 
-On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD PostgreSQL :
+On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD PostgreSQL et d'export de la table en CSV :
 - 1/8 : REPERTOIRE DE TRAVAIL - TELECHARGEMENT DU FICHIER SIRENE - MAJ MENSUELLE OU STOCK,
 - 2/8 : DECOUPAGE DU FICHIER NATIONAL EN FICHIERS DEPARTEMENTAUX (LIGNE COMMENTEE) remplacée PAR UNE COMMANDE QUI FILTRE LES 2 DEPARTEMENTS QUI M'INTERESSENT (38 et 69) - GAIN DE TEMPS,
 - 3/8 : FUSION DES 2 FICHIERS DEPARTEMENTAUX SUR LEQUEL SE TROUVE LE TERRITOIRE DE L'EPCI,
@@ -21,4 +21,4 @@ On distingue 8 étapes de traitements + 1 étape d'insertion dans la BDD Postgre
 - 6/8 : FUSION DES FICHIERS EPCI EN UN SEUL FICHIER,
 - 7/8 : DECOUPAGE DES FICHIERS EPCI EN FICHIER COMMUNAL,
 - 8/8 : FUSION DES FICHIERS COMMUNAUX EN UN SEUL FICHIER AFIN DE CONSTRUIRE LE FICHIER DE L'EPCI,
-- INSERTION DANS LA BASE DE DONNEES PGSQL.
+- INSERTION DANS LA BASE DE DONNEES PGSQL ET EXPORT DU FICHIER POUR EUDONET EN CSV.
