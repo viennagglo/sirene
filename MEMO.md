@@ -1,21 +1,25 @@
 ## MEMO GIT
+Initialisation d'un dÃ©pÃ´t Git dans un rÃ©pertoire existant
+```shell
+$ git init
+```
 
 Ajout d'un fichier
 ```shell
 $ git add README.md
 ```
 
-Ajout de tous les fichiers du répertoire dans lequel on se trouve
+Ajout de tous les fichiers du rÃ©pertoire dans lequel on se trouve
 ```shell
 $ git add .
 ```
 
-Enregistrer les modifications dans le référentiel/dépôt
+Enregistrer les modifications dans le rÃ©fÃ©rentiel/dÃ©pÃ´t
 ```shell
 $ git commit -m "AJOUT DES FICHIERS AU DEPOT"
 ```
 
-Mettre à jour les références distantes avec les objets associés
+Mettre Ã  jour les rÃ©fÃ©rences distantes avec les objets associÃ©s
 ```shell
 $ git push -u origin master
 ```
